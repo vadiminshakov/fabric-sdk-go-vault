@@ -1,5 +1,7 @@
 ### Hyperledger Fabric Go SDK patch for Vault crypto storage
 
+This repository contains patch for Fabric BCCSP and fabric-sdk-go own packages. This patch makes it possible to use Vault as users' crypto storage instead of default file-based storage.  
+
 #### Howto
 1. apply patch to the sdk
 2. make replace of sdk in go.mod
